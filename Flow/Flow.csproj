@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C1B2C125-DB8A-4A47-ACC1-8E37DC3D867E}</ProjectGuid>
+    <ProjectGuid>{F194009F-B36F-4153-868D-19A9FC394F01}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>VariabelDemo</RootNamespace>
-    <AssemblyName>VariabelDemo</AssemblyName>
+    <RootNamespace>Flow</RootNamespace>
+    <AssemblyName>Flow</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -22,8 +22,6 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
-    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
-    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -45,12 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Bil.cs" />
-    <Compile Include="IFunk.cs" />
-    <Compile Include="KortFarve.cs" />
-    <Compile Include="KortKulør.cs" />
-    <Compile Include="Køn.cs" />
-    <Compile Include="Person.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
